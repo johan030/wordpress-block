@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/blockb",
+	"attributes": {
+		"message": {
+		  "type": "string",
+		  "source": "text",
+		  "selector": "div",
+		  "default": ""
+		}
+	  },
+	"version": "0.1.0",
+	"title": "block B",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "allows differents block depending the type.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "blockb",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
